@@ -2,10 +2,11 @@
     margin: 0;
     box-sizing: border-box;
 }
-
 .content {
     font-family: 'Segoe UI';
 }
+
+
 .header {
     display: flex;
     padding: 20px 10%;
@@ -27,9 +28,8 @@
     justify-content: center;
     align-items: center;
 }
-
 .menu {
-    box-shadow: 0px -2px 2px rgba(0, 0, 0, 0.08),
+    box-shadow: 0px -1px 4px rgba(0, 0, 0, 0.08),
         0px 0px 0px;
     justify-content: space-between;
     display: flex;
@@ -156,7 +156,7 @@
     line-height: 30px;
 }
 
-/**/
+/*Подписка*/
 
 .subcribe {
     background-color: #f59b1d;
@@ -231,6 +231,9 @@
     border: 0;
     cursor: pointer;
 }
+
+/*Особенности*/
+
 .osob {
     padding-left: 10%;
     padding-right: 10%;
@@ -269,7 +272,7 @@
     padding-right: 10%;
 }
 .c-imem {
-    padding-top: 118px;
+    padding-top: 70px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -311,7 +314,7 @@
 }
 
 .category-menu-button-v {
-    border-radius: 10px;
+    border-radius: 15px;
     padding: 6px 9px;
     background: none;
     border: 0;
